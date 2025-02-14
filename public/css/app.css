@@ -1,0 +1,229 @@
+body {
+    background-color: rgb(27, 26, 35);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #e7e9f6;
+    padding-top: 30px;
+}
+
+h1 {
+    font-size: x-large;
+}
+
+h2 {
+    font-size: larger;
+}
+
+a {
+    color: rgba(29, 89, 241, 0.771)
+}
+
+.navbar {
+    background-color: #0545bd3c;
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    right: 0px
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+}
+
+.nav li {
+    position: relative;
+
+}
+
+.nav a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.nav a:hover {
+    background-color: #8ea9e1;
+}
+
+.Index {
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    line-height: 25px;
+    position: absolute;
+    top: 150px;
+    color: #372727;
+}
+
+.h1-Home {
+    text-align: center;
+}
+
+.fitxperience {
+    width: 250px;
+    height: auto;
+    max-width: 100%;
+    /* Image will never be larger than its container */
+    height: auto;
+    /* Maintain the aspect ratio */
+    position: absolute;
+    /* or use 'fixed' depending on your needs */
+    top: 350px;
+    /* Aligns the image to the top */
+    right: 150px;
+    /* Aligns the image to the right */
+    margin: 10px;
+    /* Optional: Add some spacing from the edges */
+}
+
+.hz-logo {
+    width: 120px;
+    height: auto;
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    right: 10px;
+    margin: 10px;
+}
+
+.pfp {
+    width: 250px;
+    height: auto;
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    top: 75px;
+    right: 25px;
+    margin: 10px;
+}
+
+.ranni {
+    width: 250px;
+    height: auto;
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    top: 350px;
+    right: 400px;
+    margin: 10px;
+
+}
+
+.sukuna {
+    width: 250px;
+    height: auto;
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    top: 500px;
+    right: 400px;
+    margin: 10px;
+
+}
+
+.eren {
+    width: 250px;
+    height: auto;
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    top: 500px;
+    right: 150px;
+    margin: 10px;
+
+}
+
+aside {
+    position: absolute;
+    top: 750px;
+    background-color: #0545bd3c;
+    color: rgba(255, 255, 255, 0.679);
+
+}
+
+.blogfooter {
+    display: inline-block;
+}
+
+.h1blog {
+    text-align: center;
+
+}
+
+.blogdetails {
+    text-align: center;
+}
+
+.h1home {
+    text-align: center;
+    font-size: 250px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-image: url("../homebackground.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.h2home {
+    position: absolute;
+    left: 280px;
+    top: 425px;
+}
+
+.h3home {
+    position: absolute;
+    left: 1050px;
+    top: 425px;
+}
+
+.motivation {
+    position: absolute;
+    left: 80px;
+    margin-right: 55%;
+    top: 475px;
+}
+
+.motivation2 {
+    position: absolute;
+    right: 80px;
+    margin-left: 50%;
+    top: 475px;
+}
+
+.h1Faq {
+    text-align: center;
+}
+
+.faqStyle {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    border-width: 3px;
+    border-style: dashed;
+    border-color: #0545bd;
+    border-radius: 5px;
+}
+
+.progressBar {
+    width: 250px;
+    height: 20px;
+    background-color: #cc1818;
+}
+
+.progressBarP {
+    text-align: center;
+    color: #ff0000;
+}
+
+.EC {
+    text-align: center;
+}

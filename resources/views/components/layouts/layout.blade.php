@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+@php use App\Http\Controllers\PageController;
+use Illuminate\Support\Facades\Route; @endphp
+    <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -11,11 +13,13 @@
 <body>
 <div class="navbar">
     <ul class="nav">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="profile.html">Profile</a></li>
-        <li><a href="dashboard.html">Dashboard</a></li>
-        <li><a href="faq.html">FAQ</a></li>
-        <li><a href="blog.html">Blog</a></li>
+            <li><a href="{{ route('home') }}">Home</a></li>
+            <li><a href="{{ route('profile') }}">Profile</a></li>
+            <li><a href="{{ route('dashboard') }}">Dashboard</a></li>
+            <li><a href="{{ route('faq') }}">FAQ</a></li>
+            <li><a href="{{ route('blogs') }}">Blog</a></li>
+        </ul>
+
 
         <img src="assets/hz-university-of-applied-sciences.png" alt="hz" class="hz-logo">
     </ul>
